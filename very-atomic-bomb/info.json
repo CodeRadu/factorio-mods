@@ -1,0 +1,9 @@
+{
+  "name": "very-atomic-bomb",
+  "version": "0.1.0",
+  "title": "Very Atomic Bomb",
+  "author": "R4du",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "A mod that seems to be able to convert atomic bombs into VERY atomic bombs"
+}
