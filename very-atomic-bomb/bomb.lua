@@ -29,7 +29,7 @@ veryBomb.ammo_type = {
 }
 
 local recipe = table.deepcopy(data.raw["recipe"]["atomic-bomb"])
-recipe.enabled = true
+recipe.enabled = false
 recipe.name = "very-atomic-bomb"
 recipe.ingredients = {{"explosives", 50}, {"rocket-control-unit", 30}, {"uranium-235", 100}, {"atomic-bomb", 1}}
 recipe.result = "very-atomic-bomb"
