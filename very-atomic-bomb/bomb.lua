@@ -54,7 +54,7 @@ tech.prerequisites = {
 }
 
 tech.unit = {
-  count = 10000,
+  count = 5000,
   ingredients = {
     {
       "automation-science-pack",
@@ -70,7 +70,7 @@ tech.unit = {
     },
     {
       "military-science-pack",
-      5
+      3
     },
     {
       "production-science-pack",
