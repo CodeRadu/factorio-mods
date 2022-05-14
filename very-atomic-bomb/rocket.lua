@@ -139,8 +139,8 @@ atomicRocket.action.action_delivery.target_effects = {
         starting_speed_deviation = 0.075,
         type = "projectile"
       },
-      radius = 100,
-      repeat_count = 1000,
+      radius = 65,
+      repeat_count = 3000,
       target_entities = false,
       trigger_from_target = true,
       type = "area"
@@ -155,7 +155,7 @@ atomicRocket.action.action_delivery.target_effects = {
         starting_speed_deviation = 0.075,
         type = "projectile"
       },
-      radius = 100,
+      radius = 65,
       repeat_count = 1000,
       show_in_tooltip = false,
       target_entities = false,

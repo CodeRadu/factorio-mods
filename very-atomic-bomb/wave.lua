@@ -7,15 +7,15 @@ wave.action={
     action_delivery = {
       target_effects = {
         damage = {
-          amount = 1000,
+          amount = 10000,
           type = "explosion"
         },
-        lower_damage_modifier = 1,
+        lower_damage_modifier = 5,
         lower_distance_threshold = 0,
         type = "damage",
-        upper_damage_modifier = 0.1,
-        upper_distance_threshold = 35,
-        vaporize = false
+        upper_damage_modifier = 2.5,
+        upper_distance_threshold = 65,
+        vaporize = true
       },
       type = "instant"
     },
