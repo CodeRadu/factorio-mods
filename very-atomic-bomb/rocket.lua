@@ -4,7 +4,7 @@ atomicRocket.name="very-atomic-rocket"
 atomicRocket.action.action_delivery.target_effects = {
   {
     apply_projection = true,
-    radius = 30,
+    radius = 25,
     tile_collision_mask = {
       "water-tile"
     },
@@ -77,7 +77,7 @@ atomicRocket.action.action_delivery.target_effects = {
   },
   {
     damage = {
-      amount = 2000,
+      amount = 5000,
       type = "explosion"
     },
     type = "damage"
@@ -134,13 +134,13 @@ atomicRocket.action.action_delivery.target_effects = {
   {
     action = {
       action_delivery = {
-        projectile = "atomic-bomb-wave",
+        projectile = "very-abw",
         starting_speed = 1,
         starting_speed_deviation = 0.075,
         type = "projectile"
       },
-      radius = 100,
-      repeat_count = 1000,
+      radius = 65,
+      repeat_count = 3000,
       target_entities = false,
       trigger_from_target = true,
       type = "area"
@@ -155,7 +155,7 @@ atomicRocket.action.action_delivery.target_effects = {
         starting_speed_deviation = 0.075,
         type = "projectile"
       },
-      radius = 100,
+      radius = 65,
       repeat_count = 1000,
       show_in_tooltip = false,
       target_entities = false,
