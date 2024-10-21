@@ -31,8 +31,13 @@ veryBomb.ammo_type = {
 local recipe = table.deepcopy(data.raw["recipe"]["atomic-bomb"])
 recipe.enabled = false
 recipe.name = "very-atomic-bomb"
-recipe.ingredients = {{"explosives", 15}, {"rocket-control-unit", 15}, {"uranium-235", 50}, {"atomic-bomb", 1}}
-recipe.result = "very-atomic-bomb"
+recipe.ingredients = {
+  {type="item", name="explosives", amount=15},
+  {type="item", name="processing-unit", amount=15},
+  {type="item", name="uranium-235", amount=50},
+  {type="item", name="atomic-bomb", amount=1}
+}
+recipe.results = {{type="item", name="very-atomic-bomb", amount=1}}
 
 local tech = table.deepcopy(data.raw['technology']['atomic-bomb'])
 tech.name="very-atomic-bomb"
@@ -48,7 +53,7 @@ tech.icon="__very-atomic-bomb__/thumbnail.png"
 tech.prerequisites = {
   "military-4",
   "kovarex-enrichment-process",
-  "rocket-control-unit",
+  "processing-unit",
   "rocketry",
   "atomic-bomb"
 }

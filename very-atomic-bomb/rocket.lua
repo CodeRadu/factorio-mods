@@ -5,9 +5,9 @@ atomicRocket.action.action_delivery.target_effects = {
   {
     apply_projection = true,
     radius = 25,
-    tile_collision_mask = {
-      "water-tile"
-    },
+    -- tile_collision_mask = {
+    --   "water-tile"
+    -- },
     tile_name = "nuclear-ground",
     type = "set-tile"
   },
@@ -221,9 +221,9 @@ atomicRocket.action.action_delivery.target_effects = {
         target_effects = {
           {
             entity_name = "nuclear-smouldering-smoke-source",
-            tile_collision_mask = {
-              "water-tile"
-            },
+            -- tile_collision_mask = {
+            --   "water-tile"
+            -- },
             type = "create-entity"
           }
         },
